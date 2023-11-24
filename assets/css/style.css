@@ -120,6 +120,38 @@ top: 45.5%;
 left: 40%;
 }
 
+section.b{
+    width: 100%;
+    height: 700px;
+    padding-top: 130px;
+    padding-left: 370px;
+}
+
+div.secondtitle h2{
+    font-size: 35px;
+}
+
+
+div.businessplans{
+    margin-top: 50px;
+    padding-left: 5px;
+}
+
+div.input{
+    display: flex;
+    align-items: center;
+}
+
+input{
+ transform: scale(1.5);
+ margin: 5px;
+}
+
+.input span{
+margin-right: 50px;
+}
+
+
 
 
 
