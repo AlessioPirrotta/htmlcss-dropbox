@@ -11,7 +11,7 @@ html{
 }
 
 body{
-    height: 2000px
+    height: 4000px
 }
 header{
     position: fixed;
@@ -137,12 +137,11 @@ left: 40%;
 
 section.b{
     width: 100%;
-    height: 700px;
     padding-top: 130px;
     padding-left: 370px;
 }
 
-div.secondtitle h2{
+h2{
     font-size: 35px;
 }
 
@@ -327,7 +326,6 @@ div.ufficio{
 }
 
 div.footsectionb{
-    border: rgba(128, 128, 128, 0.5) solid 1px;
     margin-right: 380px;
     display: flex;
     justify-content: flex-start;
@@ -357,6 +355,65 @@ button.trova{
     margin-top: 30px;
     
 }
+
+section.c{
+    width: 100%;
+}
+
+div.operationtitle{
+    padding-left: 370px;
+}
+
+div.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 51%;
+    margin: 0 auto;
+    margin-top: 80px;
+    row-gap: 50px;
+}
+
+div.singlecard{
+    width: 30%;
+}
+
+figure.imgcards img{
+    width: 100%;
+    display: block;
+    position: static;
+}
+
+div.cardsdown{
+    width:100% ;  
+}
+
+div.cardsdown h3{
+    padding-top: 20px;
+}
+
+div.cardsdown p{
+    padding-top: 20px;
+}
+
+div.scopri{
+    width: 50%;
+    margin-left: 370px;
+    margin-top: 200px;
+}
+
+div.scopri span{
+    margin-top: 50px;
+    color: #0061ff;
+    text-decoration: underline;
+}
+
+
+
+
+    
+
+
 
 
 
