@@ -496,6 +496,13 @@ div.logoa{
 .planet{
     scale: .3;
     filter: invert(1);
+    transition: all .5s;
+}
+
+.planet:hover{
+    scale: .5;
+    transform: rotate(360deg);
+    cursor: pointer;
 }
 
 .yellow{
@@ -569,11 +576,13 @@ padding-right: 70px;
 
 .skycont h1{
 font-size: 35px ;
+color: #61082b;
 }
 
 .hcont{
     width: 30%;
     font-size: 35px ;
+    margin-left: -70px;
 }
 .btncont{
   padding-bottom: 30px;  
@@ -584,6 +593,76 @@ font-size: 35px ;
     background-color: white;
     color:rgba(0, 0, 0,.8)
 }
+
+section.g{
+    padding-left: 370px;
+}
+
+div.faq{
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 50px;
+}
+
+.faq h1{
+   font-size: 35px;
+   margin-top: 50px;
+   margin-bottom: 20px;
+   
+}
+
+.faq hr{
+    margin-block: -20px;
+    width: 70%;
+    border-top: black 1px solid;
+    margin-left: -2px;
+ }
+
+.hcontainer span{
+display: block;
+cursor: pointer;
+font-weight: 600;
+
+}
+
+span.hover{
+    display: none;
+    margin-top: 20px;
+}
+
+.hcontainer{
+    height: 30px;
+
+}
+
+.hcontainer:hover > .hover{
+    display:block;
+
+    
+}
+
+.hcontainer:hover > span >.down{
+    display:none; 
+}
+
+.hcontainer:hover > span >.up{
+    display:inline-block; 
+}
+
+.down{
+    margin-left: 300px;
+}
+
+.up{
+    margin-left:300px;
+    display: none;
+}
+
+
+
+
 
 
 
