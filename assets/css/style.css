@@ -11,7 +11,7 @@ html{
 }
 
 body{
-    height: 4000px
+    height: 6000px
 }
 header{
     position: fixed;
@@ -30,7 +30,7 @@ nav{
 div.upbarleft{
 display: flex;
 gap: 30px;
-padding:20px;
+padding-inline:20px;
 align-items: center;
 
 }
@@ -344,7 +344,7 @@ div.rightwritings{
 
 div.rightwritings p{
     margin-top: 20px;
-   
+
 
 }
 
@@ -353,7 +353,7 @@ button.trova{
     color: black;
     border: black 1px solid;
     margin-top: 30px;
-    
+
 }
 
 section.c{
@@ -385,7 +385,7 @@ figure.imgcards img{
 }
 
 div.cardsdown{
-    width:100% ;  
+    width:100% ;
 }
 
 div.cardsdown h3{
@@ -407,11 +407,198 @@ div.scopri span{
     color: #0061ff;
     text-decoration: underline;
 }
+div.partner{
+    display: flex;
+    margin-top: 150px;
+}
+
+div.loghi{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 500px;
+}
+
+div.center{
+    width: 100%;
+    height: 500px;
+}
+div.logoa{
+    width: 50%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.green{
+    background-color: #a2d39b;
+    border: #d1e9cd 15px solid;
+   
+}
+
+.designit{
+    width: 40px;
+    height: 40px;
+    filter: invert(1);
+}
+
+.amaranth{
+    background-color: #61082b;
+}
+
+.arizona{
+    width: 100px;
+    height: 100px;
+    filter: invert(1);
+}
+
+.sky{
+    background-color: #0093ce;
+}
+
+.florida{
+    scale: .5;
+    filter: invert(1);
+}
+
+.fire{
+    background-color:#ff1c1c;
+}
+
+.topps{
+    scale: .3;
+    filter: invert(1);
+}
+
+.red{
+    background-color:#d5001f;
+}
+
+.bicycle{
+    scale: .3;
+    filter: invert(1);
+}
+
+.heavenly{
+    background-color:#b4d0e7;
+}
+
+.hearst{
+    scale: .3;
+    filter: invert(1);
+}
+
+.blue{
+    background-color:#0d2481;
+}
+
+.planet{
+    scale: .3;
+    filter: invert(1);
+}
+
+.yellow{
+    background-color:#ffd830;
+}
+
+.clear{
+    scale: .5;
+    filter: invert(1);
+}
+
+.center{
+    padding-left: 30px;
+    background-color:#f5f5f5 ;
+    overflow: auto;
+}
+
+.center h1{
+position: relative;
+font-size: 60px;
+word-spacing: 0px;
+letter-spacing: -3px;
+width: 70%;
+}
+
+.r{
+    scale: .2;
+    position: absolute;
+    top: -13px;
+    right: 80px;
+}
+
+.pwip{
+   font-size: 15px;
+   letter-spacing: -1px;
+   padding-left: 5px; 
+}
+
+.wipro{
+    font-weight:900;
+    letter-spacing: -1px; 
+}
+
+hr{
+    margin-block: 40px;
+    opacity: 0.5;
+    width: 18%;
+}
+
+.member{
+    padding-right: 70px;
+}
+
+.morten{
+    margin-block: 50px;
+}
+
+.lorem{
+padding-right: 70px;
+}
+
+.skycont{
+    width: 100%;
+    height: 300px;
+    background-color: #b4d0e7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+.skycont h1{
+font-size: 35px ;
+}
+
+.hcont{
+    width: 30%;
+    font-size: 35px ;
+}
+.btncont{
+  padding-bottom: 30px;  
+}
+
+#prova{
+    width: 150%;
+    background-color: white;
+    color:rgba(0, 0, 0,.8)
+}
 
 
 
 
-    
+
+
+
+
+
+
+
+
+
+
+
 
 
 
