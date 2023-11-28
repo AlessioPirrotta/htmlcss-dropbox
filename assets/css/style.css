@@ -544,6 +544,10 @@ width: 70%;
 
 hr{
     margin-block: 40px;
+}
+
+hr.wi{
+    margin-left: 0px;
     opacity: 0.5;
     width: 18%;
 }
