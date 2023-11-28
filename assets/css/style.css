@@ -9,10 +9,6 @@ html{
     font-size: 13px;
 
 }
-
-body{
-    height: 6000px
-}
 header{
     position: fixed;
     z-index: 1;
@@ -242,7 +238,7 @@ div.trial{
     color: #0061ff;
 }
 
-hr{
+.firsthr{
     width: 20%;
     margin-left: 5px ;
     margin-bottom: 40px;
@@ -659,6 +655,57 @@ span.hover{
     margin-left:300px;
     display: none;
 }
+
+footer{
+    background-color: #000000;
+}
+
+.downbar{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    width: 100%;
+    height: 350px;
+    margin-top: 100px;
+    color: white;
+    
+}
+
+.listflex{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 350px;
+    line-height: 2px;
+
+}
+
+hr{
+    opacity: 1;
+    margin-left: 244px;
+    width: 7%;
+}
+
+div.language{
+    width: 100%;
+    height: 100px;
+    margin-left: 240px;
+
+}
+
+.language span{
+ color: white;
+ vertical-align: middle;
+ opacity: .5;
+}
+
+.language span svg{
+    color: white;
+    fill: white;
+    vertical-align: middle;
+    padding-bottom: 2px;
+    margin-inline: 6px;
+   }
 
 
 
