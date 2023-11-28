@@ -37,6 +37,12 @@ figure{
 
 .logo{
     height: 20px;
+    transition: all 1s;
+}
+
+.logo:hover{
+    filter: drop-shadow(0 5px 5px);
+    cursor: pointer;
 }
 
 ul{
@@ -49,8 +55,24 @@ ul{
 li{
     display: flex;
     align-items: center;
-
 }
+
+.upbarleft li:hover{
+    border-bottom: #000000 1px solid;
+    padding-block: 10px;
+    cursor: pointer;
+}
+
+.upbarright li:hover{
+    border-bottom: #000000 1px solid;
+    padding-block: 10px;
+    cursor: pointer;
+}
+
+#none:hover{
+    border-bottom: none;
+}
+
 
 button{
     height: 25px;
@@ -58,6 +80,11 @@ button{
     background-color:#0061ff ;
     color: white;
     border: none;
+}
+
+button:hover{
+    opacity: .8;
+    cursor: pointer;
 }
 
 li button{
@@ -76,6 +103,17 @@ section.a{
     width: 100%;
     height: 650px;
     background-color:#b4d0e7 ;
+}
+
+.redi{
+    transition: all 1s ;
+}
+
+.redi:hover{
+    filter: drop-shadow(0px 25px 3px);
+    scale: 2 ;
+    color: #000000;
+
 }
 
 div.maintitle{
@@ -177,8 +215,6 @@ div.userskind{
 
 }
 
-div.boxtypology{
-}
 
 div.typology{
     border: rgba(128, 128, 128, 0.5) solid 1px;
@@ -437,6 +473,13 @@ div.logoa{
     width: 40px;
     height: 40px;
     filter: invert(1);
+    transition: all 1s;
+}
+.designit:hover{
+   transform: scale(1.5);
+   filter: invert(1) drop-shadow(0 5px 5px);
+   cursor: pointer;
+
 }
 
 .amaranth{
@@ -447,6 +490,12 @@ div.logoa{
     width: 100px;
     height: 100px;
     filter: invert(1);
+    transition: all 1s;
+}
+
+.arizona:hover{
+transform: rotate3d(0, 1, 1, 360deg);
+cursor: pointer;
 }
 
 .sky{
@@ -456,7 +505,14 @@ div.logoa{
 .florida{
     scale: .5;
     filter: invert(1);
+    transition: all 1s;
 }
+
+.florida:hover{
+    transform: rotate3d(0, 1, 0, 720deg);
+    cursor: pointer;
+    scale: 1;
+    }
 
 .fire{
     background-color:#ff1c1c;
@@ -465,7 +521,14 @@ div.logoa{
 .topps{
     scale: .3;
     filter: invert(1);
+    transition: all 1s;
 }
+
+.topps:hover{
+    transform: rotate3d(1, 0, 0, 360deg);
+    cursor: pointer;
+    scale: .5;
+    }
 
 .red{
     background-color:#d5001f;
@@ -474,7 +537,14 @@ div.logoa{
 .bicycle{
     scale: .3;
     filter: invert(1);
+    transition: all 1s ;
 }
+
+.bicycle:hover{
+    transform: rotate3d(0, 0, 2, -360deg);
+    cursor: pointer;
+    scale: .5;
+    }
 
 .heavenly{
     background-color:#b4d0e7;
@@ -483,7 +553,17 @@ div.logoa{
 .hearst{
     scale: .3;
     filter: invert(1);
+    transition: all 1s ;
+    
 }
+
+.hearst:hover{
+    transform: rotate3d(1, 0, 0, -360deg);
+    cursor: pointer;
+    scale: .5;
+    filter: invert(1) drop-shadow(0 5px 5px);
+    }
+
 
 .blue{
     background-color:#0d2481;
@@ -508,7 +588,14 @@ div.logoa{
 .clear{
     scale: .5;
     filter: invert(1);
+    transition: all 1s ;
 }
+
+.clear:hover{
+    transform: rotate3d(0, 1, 1, -720deg);
+    scale: .8;
+    cursor: pointer;
+    }
 
 .center{
     padding-left: 30px;
